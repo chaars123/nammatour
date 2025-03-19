@@ -24,7 +24,7 @@ NammaTour is a comprehensive tourism platform for Bangalore that connects touris
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/nammaTour.git
+git clone https://github.com/chaars123/nammatour.git
 cd nammaTour
 ```
 
