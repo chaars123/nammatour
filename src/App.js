@@ -7,6 +7,7 @@ import ChatAI from "./pages/ChatAI";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import About from "./pages/About";
+import AISearch from "./pages/AISearch";
 import Navbar from "./components/Navbar";
 import SosButton from "./components/SosButton";
 import { getCurrentUser, supabase } from "./supabase";
@@ -104,6 +105,22 @@ function App() {
               } 
             />
             <Route path="/about" element={<About />} />
+            <Route 
+              path="/map-search" 
+              element={
+                <PrivateRoute>
+                  <AISearch user={user} />
+                </PrivateRoute>
+              } 
+            />
+            <Route 
+              path="/ai-search" 
+              element={
+                <PrivateRoute>
+                  <AISearch user={user} />
+                </PrivateRoute>
+              } 
+            />
             <Route 
               path="/chat-ai" 
               element={

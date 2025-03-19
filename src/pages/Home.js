@@ -10,7 +10,7 @@ const Home = ({ user }) => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-7/12 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Discover Bangalore Like Never Before
+                Welcome to NammaTour
               </h1>
               <p className="text-xl mb-8">
                 Connect with local tour guides, explore top attractions, and plan your perfect trip with NammaTour.

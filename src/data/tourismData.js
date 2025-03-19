@@ -97,7 +97,7 @@ export const placesData = [
     timings: "8:30 AM - 5:30 PM",
     entryFee: "₹15 for Indians, ₹200 for foreigners",
     image: "/images/places/tippusultanpalace.jpg",
-    directions: "From City Center: Take JC Road south and turn right onto Albert Victor Road. The palace is on the left side, near Bangalore Fort (approximately 3 km, 15 minutes by car).",
+    directions: "From City Center: Take JC Road south and turn onto Albert Victor Road. The palace is on the left side, near Bangalore Fort (approximately 3 km, 15 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Tipu%20Sultan%27s%20Summer%20Palace%20Bangalore#map=17/12.96022/77.57507"
   },
   {
@@ -110,6 +110,105 @@ export const placesData = [
     image: "/images/places/halmuseum.jpg",
     directions: "From MG Road: Take Old Airport Road east toward Marathahalli. The museum is on the left side, within the HAL complex (approximately 8 km, 30 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=HAL%20Aerospace%20Museum%20Bangalore#map=16/12.9607/77.6681"
+  },
+  {
+    id: 11,
+    name: "Wonder La Amusement Park",
+    description: "Popular amusement park with water rides, dry rides, and entertainment shows.",
+    address: "28th Km, Mysore Road, Bangalore - 562109",
+    timings: "11:00 AM - 7:00 PM",
+    entryFee: "₹1,300 for adults, ₹1,000 for children",
+    image: "/images/places/wonderla.jpg",
+    directions: "From City Center: Take Mysore Road southwest for approximately 28 km (1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Wonderla%20Bangalore#map=15/12.8343/77.4005"
+  },
+  {
+    id: 12,
+    name: "Bannerghatta National Park",
+    description: "Biological reserve with a zoo, safari park, butterfly enclosure, and rescue center.",
+    address: "Bannerghatta Road, Bannerghatta - 560083",
+    timings: "9:00 AM - 5:00 PM (Closed on Tuesdays)",
+    entryFee: "₹80 for adults, ₹40 for children (Zoo); ₹260 for Safari",
+    image: "/images/places/bannerghatta.jpg",
+    directions: "From City Center: Take Bannerghatta Road south for approximately 22 km (1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Bannerghatta%20National%20Park#map=13/12.8006/77.5773"
+  },
+  {
+    id: 13,
+    name: "Visvesvaraya Industrial & Technological Museum",
+    description: "Science museum with interactive exhibits on technology and engineering.",
+    address: "Kasturba Road, Bangalore - 560001",
+    timings: "9:30 AM - 6:00 PM",
+    entryFee: "₹40 for adults, ₹20 for children",
+    image: "/images/places/vitm.jpg",
+    directions: "From MG Road: Head toward Cubbon Park. The museum is located opposite Cubbon Park (approximately 1 km, 5 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Visvesvaraya%20Industrial%20%26%20Technological%20Museum%20Bangalore#map=19/12.97494/77.59634"
+  },
+  {
+    id: 14,
+    name: "Innovative Film City",
+    description: "Entertainment park with film sets, wax museum, dinosaur park, and adventure activities.",
+    address: "Off Bangalore-Mysore Highway, Bidadi, Bangalore - 562109",
+    timings: "10:00 AM - 7:00 PM",
+    entryFee: "₹699 for adults, ₹599 for children",
+    image: "/images/places/filmcity.jpg",
+    directions: "From City Center: Take Mysore Road southwest for approximately 40 km (1.5 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Innovative%20Film%20City%20Bangalore#map=14/12.7869/77.3873"
+  },
+  {
+    id: 15,
+    name: "Jawaharlal Nehru Planetarium",
+    description: "Educational facility with astronomy shows and science exhibits.",
+    address: "Sri T. Chowdaiah Road, High Grounds, Bangalore - 560001",
+    timings: "10:00 AM - 5:30 PM (Closed on Mondays)",
+    entryFee: "₹35 per person",
+    image: "/images/places/planetarium.jpg",
+    directions: "From MG Road: Drive toward Vidhana Soudha and turn onto Sri T. Chowdaiah Road (approximately 3 km, 15 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Jawaharlal%20Nehru%20Planetarium%20Bangalore#map=19/12.98240/77.59071"
+  },
+  {
+    id: 16,
+    name: "Bangalore Aquarium",
+    description: "One of India's largest freshwater aquariums with various fish species.",
+    address: "Cubbon Park, Kasturba Road, Bangalore - 560001",
+    timings: "10:00 AM - 5:30 PM (Closed on Mondays)",
+    entryFee: "₹25 per person",
+    image: "/images/places/aquarium.jpg",
+    directions: "From MG Road: Head toward Cubbon Park. The aquarium is located within the park (approximately 1.5 km, 7 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Bangalore%20Aquarium%20Cubbon%20Park#map=19/12.97567/77.59195"
+  },
+  {
+    id: 17,
+    name: "Thottikallu Falls (TG Halli)",
+    description: "Scenic waterfall surrounded by rocky hills and greenery.",
+    address: "Kanakpura Road, Bangalore - 560082",
+    timings: "7:00 AM - 6:00 PM",
+    entryFee: "₹20 per person",
+    image: "/images/places/tghalli.jpg",
+    directions: "From City Center: Take Kanakapura Road south for approximately 35 km (1.5 hours by car). Turn at TG Halli signboard.",
+    mapUrl: "https://www.openstreetmap.org/search?query=Thottikallu%20Falls%20Bangalore#map=15/12.7272/77.4865"
+  },
+  {
+    id: 18,
+    name: "Government Museum",
+    description: "Archaeological museum with artifacts, sculptures, and paintings from different periods.",
+    address: "Kasturba Road, Bangalore - 560001",
+    timings: "10:00 AM - 5:00 PM (Closed on Mondays)",
+    entryFee: "₹10 for Indians, ₹100 for foreigners",
+    image: "/images/places/govtmuseum.jpg",
+    directions: "From MG Road: Head toward Cubbon Park. The museum is located next to Visvesvaraya Museum (approximately 1 km, 5 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Government%20Museum%20Bangalore#map=19/12.97461/77.59639"
+  },
+  {
+    id: 19,
+    name: "Chunchi Falls",
+    description: "Beautiful cascade waterfall on the Arkavati River.",
+    address: "Kanakapura Taluk, Bangalore Rural - 562112",
+    timings: "9:00 AM - 5:00 PM",
+    entryFee: "₹25 per person",
+    image: "/images/places/chunchi.jpg",
+    directions: "From City Center: Take Kanakapura Road south for approximately 90 km (2.5 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Chunchi%20Falls%20Karnataka#map=16/12.5333/77.4166"
   }
 ];
 
@@ -223,6 +322,116 @@ export const hotelsData = [
     image: "/images/hotels/Oakwood premier.jpg",
     directions: "From Airport: Take Airport Road to MG Road (approximately 35 km, 1 hour by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Oakwood%20Premier%20MG%20Road%20Bangalore#map=18/12.97251/77.62053"
+  },
+  {
+    id: 11,
+    name: "Radisson Blu Atria",
+    description: "Modern luxury hotel in central business district.",
+    address: "Palace Road, Bangalore - 560001",
+    priceRange: "₹7,000 - ₹15,000 per night",
+    amenities: "Restaurant, Rooftop Pool, Spa, Fitness Center, Free Wi-Fi",
+    image: "/images/hotels/radissonblu.jpg",
+    directions: "From Airport: Take Airport Road to Cubbon Road, then turn onto Palace Road (approximately 34 km, 1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Radisson%20Blu%20Atria%20Bangalore#map=18/12.98345/77.59023"
+  },
+  {
+    id: 12,
+    name: "Sheraton Grand Bangalore",
+    description: "Premium hotel at Brigade Gateway with city views.",
+    address: "Dr. Rajkumar Road, Malleswaram, Bangalore - 560055",
+    priceRange: "₹8,000 - ₹18,000 per night",
+    amenities: "Multiple Restaurants, Infinity Pool, Spa, Fitness Center, Business Center",
+    image: "/images/hotels/sheraton.jpg",
+    directions: "From Airport: Take NH44 toward Dr. Rajkumar Road (approximately 32 km, 50 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Sheraton%20Grand%20Bangalore%20Hotel%20Brigade%20Gateway#map=17/13.01073/77.55598"
+  },
+  {
+    id: 13,
+    name: "Four Seasons Hotel Bengaluru",
+    description: "Luxury hotel with elegant rooms and premium amenities.",
+    address: "Bellary Road, Ganganagar, Bangalore - 560032",
+    priceRange: "₹12,000 - ₹30,000 per night",
+    amenities: "Fine Dining, Outdoor Pool, Spa, Fitness Center, Butler Service",
+    image: "/images/hotels/fourseasons.jpg",
+    directions: "From Airport: Take Bellary Road south (approximately 30 km, 45 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Four%20Seasons%20Hotel%20Bengaluru#map=16/13.04007/77.62159"
+  },
+  {
+    id: 14,
+    name: "The Chancery Pavilion",
+    description: "Business hotel with modern amenities and central location.",
+    address: "Residency Road, Bangalore - 560025",
+    priceRange: "₹5,000 - ₹12,000 per night",
+    amenities: "Restaurant, Rooftop Pool, Business Center, Fitness Center",
+    image: "/images/hotels/chancerypavilion.jpg",
+    directions: "From Airport: Take Airport Road to MG Road, then turn onto Residency Road (approximately 36 km, 1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=The%20Chancery%20Pavilion%20Bangalore#map=19/12.96689/77.59954"
+  },
+  {
+    id: 15,
+    name: "Novotel Bengaluru Techpark",
+    description: "Contemporary hotel near major tech parks.",
+    address: "Marathahalli Outer Ring Road, Bangalore - 560037",
+    priceRange: "₹6,000 - ₹14,000 per night",
+    amenities: "Multiple Restaurants, Swimming Pool, Fitness Center, Business Facilities",
+    image: "/images/hotels/novotel.jpg",
+    directions: "From Airport: Take Outer Ring Road via K.R. Puram (approximately 45 km, 1.5 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Novotel%20Bengaluru%20Techpark#map=17/12.95577/77.70056"
+  },
+  {
+    id: 16,
+    name: "Aloft Bengaluru Cessna Business Park",
+    description: "Modern, tech-forward hotel near business centers.",
+    address: "Cessna Business Park, Kadubeesanahalli, Bangalore - 560087",
+    priceRange: "₹6,500 - ₹13,000 per night",
+    amenities: "Restaurant, Outdoor Pool, Fitness Center, Free Wi-Fi, 24/7 Pantry",
+    image: "/images/hotels/aloft.jpg",
+    directions: "From Airport: Take Airport Road to Outer Ring Road, then head toward Sarjapur Road (approximately 48 km, 1.5 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Aloft%20Bengaluru%20Cessna%20Business%20Park#map=18/12.92921/77.68615"
+  },
+  {
+    id: 17,
+    name: "Vivanta Bengaluru Whitefield",
+    description: "Upscale hotel near tech corridor with contemporary design.",
+    address: "ITPB, Whitefield, Bangalore - 560066",
+    priceRange: "₹7,500 - ₹16,000 per night",
+    amenities: "Multiple Dining Options, Swimming Pool, Spa, Fitness Center",
+    image: "/images/hotels/vivantawhitefield.jpg",
+    directions: "From Airport: Take Airport Road to Whitefield via Outer Ring Road (approximately 50 km, 1.5 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Vivanta%20Bengaluru%20Whitefield#map=17/12.98579/77.72832"
+  },
+  {
+    id: 18,
+    name: "Goldfinch Hotel",
+    description: "Business-friendly hotel with comfortable accommodations.",
+    address: "Crescent Road, High Grounds, Bangalore - 560001",
+    priceRange: "₹4,500 - ₹9,000 per night",
+    amenities: "Restaurant, Rooftop Bar, Business Center, Free Wi-Fi",
+    image: "/images/hotels/goldfinch.jpg",
+    directions: "From Airport: Take Airport Road to Race Course Road, then turn onto Crescent Road (approximately 33 km, 55 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Goldfinch%20Hotel%20Bangalore#map=19/12.98675/77.58878"
+  },
+  {
+    id: 19,
+    name: "Sterling Mac Hotel",
+    description: "Boutique hotel with modern amenities and personalized service.",
+    address: "Koramangala, Bangalore - 560095",
+    priceRange: "₹4,000 - ₹8,000 per night",
+    amenities: "Restaurant, Fitness Center, Conference Rooms, Free Wi-Fi",
+    image: "/images/hotels/sterlingmac.jpg",
+    directions: "From Airport: Take Airport Road to Koramangala via Inner Ring Road (approximately 40 km, 1.2 hours by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Sterling%20Mac%20Hotel%20Koramangala%20Bangalore#map=18/12.93432/77.62382"
+  },
+  {
+    id: 20,
+    name: "The Park Bangalore",
+    description: "Stylish design hotel with vibrant nightlife options.",
+    address: "MG Road, Bangalore - 560042",
+    priceRange: "₹7,000 - ₹15,000 per night",
+    amenities: "Multiple Restaurants, Nightclub, Spa, Swimming Pool",
+    image: "/images/hotels/thepark.jpg",
+    directions: "From Airport: Take Airport Road to MG Road (approximately 35 km, 1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=The%20Park%20Bangalore#map=19/12.97235/77.61929"
   }
 ];
 
@@ -233,7 +442,7 @@ export const restaurantsData = [
     description: "Iconic South Indian breakfast spot known for idli, vada and filter coffee.",
     address: "Ranga Rao Road, Shankarapura, Bengaluru, Karnataka 560004",
     cuisine: "South Indian",
-    priceRange: "₹",
+    priceRange: "₹100-₹200 for two",
     timings: "6:30 AM - 12:00 PM",
     directions: "From City Center: Take JC Road south and turn onto Ranga Rao Road in Basavanagudi area (approximately 5 km, 20 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Brahmin%27s%20Coffee%20Bar%20Bangalore#map=19/12.94537/77.57162",
@@ -245,7 +454,7 @@ export const restaurantsData = [
     description: "Famous for its crispy butter masala dosa and traditional South Indian breakfast.",
     address: "7th Cross Road, Malleshwaram, Bengaluru, Karnataka 560003",
     cuisine: "South Indian",
-    priceRange: "₹",
+    priceRange: "₹150-250 for two",
     timings: "7:30 AM - 12:30 PM, 4:00 PM - 9:00 PM",
     directions: "From MG Road: Take Sampige Road north toward Malleshwaram. Turn onto 7th Cross Road (approximately 7 km, 25 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Central%20Tiffin%20Room%20Malleshwaram%20Bangalore#map=19/13.00304/77.56927",
@@ -257,7 +466,7 @@ export const restaurantsData = [
     description: "Popular chain restaurant serving Indian and Chinese cuisine, known for late-night dining.",
     address: "36, Church Street, Bengaluru, Karnataka 560001",
     cuisine: "North Indian, Chinese",
-    priceRange: "₹₹",
+    priceRange: "₹400-700 for two",
     timings: "11:00 AM - 1:00 AM",
     directions: "From MG Road: Turn onto Church Street. The restaurant is on the right side (approximately 0.5 km, 2 minutes by car, 5 minutes walking).",
     mapUrl: "https://www.openstreetmap.org/search?query=Hotel%20Empire%20Church%20Street%20Bangalore#map=19/12.97571/77.60778",
@@ -265,11 +474,11 @@ export const restaurantsData = [
   },
   {
     id: 4,
-    name: "Mavalli Tiffin Rooms (MTR)",
+    name: "MTR",
     description: "Historic restaurant famous for authentic South Indian cuisine since 1924.",
     address: "14, Lalbagh Road, Mavalli, Bengaluru, Karnataka 560004",
     cuisine: "South Indian",
-    priceRange: "₹₹",
+    priceRange: "₹350-600 for two",
     timings: "6:30 AM - 11:00 AM, 12:30 PM - 2:30 PM, 4:00 PM - 9:00 PM",
     directions: "From City Center: Take JC Road south and turn onto Lalbagh Road. MTR is on the left side after the Lalbagh West Gate (approximately 4 km, 15 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=MTR%20Lalbagh%20Road%20Bangalore#map=19/12.95044/77.58361",
@@ -281,7 +490,7 @@ export const restaurantsData = [
     description: "Casual dining restaurant popular for burgers and continental cuisine.",
     address: "22, St. Marks Road, Bengaluru, Karnataka 560001",
     cuisine: "Continental, American",
-    priceRange: "₹₹",
+    priceRange: "₹500-800 for two",
     timings: "11:00 AM - 11:00 PM",
     directions: "From MG Road: Turn onto St. Marks Road. The restaurant is on the left side (approximately 1 km, 3 minutes by car, 10 minutes walking).",
     mapUrl: "https://www.openstreetmap.org/search?query=Truffles%20St%20Marks%20Road%20Bangalore#map=19/12.97288/77.59977",
@@ -293,11 +502,11 @@ export const restaurantsData = [
     description: "Legendary steakhouse serving continental cuisine since 1965.",
     address: "13, Museum Road, Bengaluru, Karnataka 560001",
     cuisine: "Continental, Steaks",
-    priceRange: "₹₹₹",
+    priceRange: "₹1,000-1,500 for two",
     timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:00 PM",
     directions: "From MG Road: Turn onto Museum Road. The restaurant is on the left side (approximately 1 km, 4 minutes by car, 12 minutes walking).",
     mapUrl: "https://www.openstreetmap.org/search?query=The%20Only%20Place%20Museum%20Road%20Bangalore#map=19/12.97161/77.60011",
-    image: "/images/restaurants/theonlyplace.jpg"
+    image: "/images/restaurants/theOnlyPlace.jpg"
   },
   {
     id: 7,
@@ -305,7 +514,7 @@ export const restaurantsData = [
     description: "Rooftop lounge with panoramic city views and global cuisine.",
     address: "UB City, Vittal Mallya Road, Bengaluru, Karnataka 560001",
     cuisine: "Global, Cocktails",
-    priceRange: "₹₹₹₹",
+    priceRange: "₹2,000-3,500 for two",
     timings: "12:00 PM - 1:00 AM",
     directions: "From MG Road: Turn onto Vittal Mallya Road. Go to the 16th floor of UB City (approximately 1 km, 5 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Skyye%20UB%20City%20Bangalore#map=19/12.97161/77.59611",
@@ -317,11 +526,11 @@ export const restaurantsData = [
     description: "Popular south Indian restaurant known for authentic dosas and idlis.",
     address: "100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038",
     cuisine: "South Indian",
-    priceRange: "₹₹",
+    priceRange: "₹300-500 for two",
     timings: "6:30 AM - 11:00 PM",
     directions: "From MG Road: Take 100 Feet Road toward Indiranagar (approximately 5 km, 20 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Rameshwaram%20Cafe%20Indiranagar%20Bangalore#map=19/12.98123/77.63938",
-    image: "/images/restaurants/rameshwaramcafe.jpg"
+    image: "/images/restaurants/rameshwaram.jpg"
   },
   {
     id: 9,
@@ -329,11 +538,11 @@ export const restaurantsData = [
     description: "Popular microbrewery with craft beers and global cuisine.",
     address: "298, 100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038",
     cuisine: "Global",
-    priceRange: "₹₹₹",
+    priceRange: "₹1,200-2,000 for two",
     timings: "12:00 PM - 1:00 AM",
     directions: "From MG Road: Take 100 Feet Road toward Indiranagar. The brewpub is on the right side (approximately 5 km, 20 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Toit%20Brewpub%20Indiranagar%20Bangalore#map=19/12.97823/77.63938",
-    image: "/images/restaurants/toitbrewpub.jpg"
+    image: "/images/restaurants/toit.jpg"
   },
   {
     id: 10,
@@ -341,10 +550,106 @@ export const restaurantsData = [
     description: "Iconic restaurant serving famous masala dosas since 1943.",
     address: "32, Gandhi Bazaar, Basavanagudi, Bengaluru, Karnataka 560004",
     cuisine: "South Indian",
-    priceRange: "₹",
+    priceRange: "₹150-250 for two",
     timings: "6:30 AM - 11:30 AM, 2:00 PM - 8:00 PM (Closed on Fridays)",
     directions: "From City Center: Take DVG Road south toward Gandhi Bazaar in Basavanagudi area (approximately 5.5 km, 22 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Vidyarthi%20Bhavan%20Gandhi%20Bazaar%20Bangalore#map=19/12.94504/77.57387",
-    image: "/images/restaurants/vidyartibhavan.jpg"
+    image: "/images/restaurants/vidyarthiBhavan.jpg"
+  },
+  {
+    id: 11,
+    name: "Nagarjuna",
+    description: "Popular restaurant known for authentic Andhra cuisine and spicy dishes.",
+    address: "Residency Road, Bangalore - 560025",
+    cuisine: "Andhra",
+    priceRange: "₹500-800 for two",
+    timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:00 PM",
+    directions: "From MG Road: Take Residency Road south. The restaurant is on the right side (approximately 1.5 km, 7 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Nagarjuna%20Residency%20Road%20Bangalore#map=19/12.96602/77.59971",
+    image: "/images/restaurants/nagarjuna.jpg"
+  },
+  {
+    id: 12,
+    name: "Burma Burma",
+    description: "Vegetarian Burmese restaurant with authentic flavors and tea room.",
+    address: "Indiranagar, Bangalore - 560038",
+    cuisine: "Burmese, Asian",
+    priceRange: "₹1,000-1,600 for two",
+    timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
+    directions: "From MG Road: Take 100 Feet Road toward Indiranagar (approximately 6.5 km, 22 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Burma%20Burma%20Indiranagar%20Bangalore#map=19/12.97139/77.63914",
+    image: "/images/restaurants/burmaBurma.jpg"
+  },
+  {
+    id: 13,
+    name: "The Fatty Bao",
+    description: "Asian gastropub with innovative dim sum and bao dishes.",
+    address: "12th Main, Indiranagar, Bangalore - 560038",
+    cuisine: "Asian Fusion",
+    priceRange: "₹1,200-1,800 for two",
+    timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
+    directions: "From MG Road: Take 100 Feet Road to 12th Main in Indiranagar (approximately 7 km, 25 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=The%20Fatty%20Bao%20Indiranagar%20Bangalore#map=19/12.97909/77.63834",
+    image: "/images/restaurants/fattyBao.jpg"
+  },
+  {
+    id: 14,
+    name: "Karavalli",
+    description: "Award-winning restaurant serving authentic coastal cuisine.",
+    address: "The Gateway Hotel, Residency Road, Bangalore - 560025",
+    cuisine: "Coastal, Seafood",
+    priceRange: "₹2,000-3,000 for two",
+    timings: "12:30 PM - 2:45 PM, 7:00 PM - 11:45 PM",
+    directions: "From MG Road: Take Residency Road south. The restaurant is inside The Gateway Hotel (approximately 2 km, 10 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Karavalli%20The%20Gateway%20Hotel%20Bangalore#map=19/12.96471/77.60139",
+    image: "/images/restaurants/karavalli.jpg"
+  },
+  {
+    id: 15,
+    name: "Grasshopper",
+    description: "Intimate fine dining restaurant with farm-to-table concept.",
+    address: "Bannerghatta Road, Bangalore - 560083",
+    cuisine: "Contemporary, European",
+    priceRange: "₹3,000-5,000 for two",
+    timings: "7:30 PM - 10:30 PM (Reservation only)",
+    directions: "From City Center: Take Bannerghatta Road south (approximately 12 km, 40 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Grasshopper%20Restaurant%20Bangalore#map=17/12.88912/77.59681",
+    image: "/images/restaurants/grasshopper.jpg"
+  },
+  {
+    id: 16,
+    name: "Meghana Foods",
+    description: "Popular restaurant known for Andhra-style biryanis and spicy curries.",
+    address: "Residency Road, Bangalore - 560025",
+    cuisine: "Andhra, Biryani",
+    priceRange: "₹600-900 for two",
+    timings: "11:30 AM - 11:30 PM",
+    directions: "From MG Road: Take Residency Road south (approximately 1.5 km, 7 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Meghana%20Foods%20Residency%20Road%20Bangalore#map=19/12.96666/77.60000",
+    image: "/images/restaurants/meghana.jpg"
+  },
+  {
+    id: 17,
+    name: "Oota Bangalore",
+    description: "Restaurant showcasing authentic Karnataka regional cuisines.",
+    address: "Whitefield, Bangalore - 560066",
+    cuisine: "Karnataka, Regional",
+    priceRange: "₹1,200-1,800 for two",
+    timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:00 PM",
+    directions: "From City Center: Take Whitefield Main Road east (approximately 18 km, 1 hour by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Oota%20Bangalore%20Whitefield#map=17/12.96889/77.73057",
+    image: "/images/restaurants/oota.jpg"
+  },
+  {
+    id: 18,
+    name: "Byg Brewski Brewing Company",
+    description: "Largest microbrewery in Asia with outdoor seating and live music.",
+    address: "Hennur Road, Bangalore - 560077",
+    cuisine: "Brewery, Continental",
+    priceRange: "₹1,500-2,500 for two",
+    timings: "12:00 PM - 1:00 AM",
+    directions: "From City Center: Take Hennur Road northeast (approximately 12 km, 40 minutes by car).",
+    mapUrl: "https://www.openstreetmap.org/search?query=Byg%20Brewski%20Hennur%20Road%20Bangalore#map=17/13.04067/77.63485",
+    image: "/images/restaurants/bygbrewski.jpg"
   }
 ];

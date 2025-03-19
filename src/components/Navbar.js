@@ -32,6 +32,7 @@ const Navbar = ({ user, setUser }) => {
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/enhanced-tourism" className="nav-link">Tourism</Link>
             <Link to="/tour-guides" className="nav-link">Tour Guides</Link>
+            <Link to="/ai-search" className="nav-link">AI Search</Link>
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/chat-ai" className="nav-link flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -110,6 +111,13 @@ const Navbar = ({ user, setUser }) => {
             onClick={() => setIsMenuOpen(false)}
           >
             Tour Guides
+          </Link>
+          <Link
+            to="/ai-search"
+            className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            AI Search
           </Link>
           <Link
             to="/about"
