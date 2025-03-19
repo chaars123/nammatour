@@ -506,7 +506,7 @@ export const restaurantsData = [
     timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:00 PM",
     directions: "From MG Road: Turn onto Museum Road. The restaurant is on the left side (approximately 1 km, 4 minutes by car, 12 minutes walking).",
     mapUrl: "https://www.openstreetmap.org/search?query=The%20Only%20Place%20Museum%20Road%20Bangalore#map=19/12.97161/77.60011",
-    image: "/images/restaurants/theOnlyPlace.jpg"
+    image: "/images/restaurants/theonlyplace.jpg"
   },
   {
     id: 7,
@@ -530,7 +530,7 @@ export const restaurantsData = [
     timings: "6:30 AM - 11:00 PM",
     directions: "From MG Road: Take 100 Feet Road toward Indiranagar (approximately 5 km, 20 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Rameshwaram%20Cafe%20Indiranagar%20Bangalore#map=19/12.98123/77.63938",
-    image: "/images/restaurants/rameshwaram.jpg"
+    image: "/images/restaurants/rameshwaramcafe.jpg"
   },
   {
     id: 9,
@@ -542,7 +542,7 @@ export const restaurantsData = [
     timings: "12:00 PM - 1:00 AM",
     directions: "From MG Road: Take 100 Feet Road toward Indiranagar. The brewpub is on the right side (approximately 5 km, 20 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Toit%20Brewpub%20Indiranagar%20Bangalore#map=19/12.97823/77.63938",
-    image: "/images/restaurants/toit.jpg"
+    image: "/images/restaurants/toitbrewpub.jpg"
   },
   {
     id: 10,
@@ -554,7 +554,7 @@ export const restaurantsData = [
     timings: "6:30 AM - 11:30 AM, 2:00 PM - 8:00 PM (Closed on Fridays)",
     directions: "From City Center: Take DVG Road south toward Gandhi Bazaar in Basavanagudi area (approximately 5.5 km, 22 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Vidyarthi%20Bhavan%20Gandhi%20Bazaar%20Bangalore#map=19/12.94504/77.57387",
-    image: "/images/restaurants/vidyarthiBhavan.jpg"
+    image: "/images/restaurants/vidyarthibhavan.jpg"
   },
   {
     id: 11,
@@ -578,7 +578,7 @@ export const restaurantsData = [
     timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
     directions: "From MG Road: Take 100 Feet Road toward Indiranagar (approximately 6.5 km, 22 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=Burma%20Burma%20Indiranagar%20Bangalore#map=19/12.97139/77.63914",
-    image: "/images/restaurants/burmaBurma.jpg"
+    image: "/images/restaurants/burmaburma.jpg"
   },
   {
     id: 13,
@@ -590,7 +590,7 @@ export const restaurantsData = [
     timings: "12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
     directions: "From MG Road: Take 100 Feet Road to 12th Main in Indiranagar (approximately 7 km, 25 minutes by car).",
     mapUrl: "https://www.openstreetmap.org/search?query=The%20Fatty%20Bao%20Indiranagar%20Bangalore#map=19/12.97909/77.63834",
-    image: "/images/restaurants/fattyBao.jpg"
+    image: "/images/restaurants/fattybao.jpg"
   },
   {
     id: 14,
