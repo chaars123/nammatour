@@ -94,10 +94,21 @@ NammaTour/
 
 ## Technologies Used
 
-- **Frontend**: React 18, React Router v7
-- **Styling**: Tailwind CSS
-- **Authentication & Database**: Supabase
-- **AI Features**: OpenAI API integration (optional)
+- **Frontend**: 
+  - React.js
+  - Tailwind CSS
+  - TensorFlow.js (for AI chatbot)
+- **Backend**: 
+  - Supabase
+  - Machine Learning Model (for intent classification)
+  - Node.js
+
+## AI Features
+
+- **Intent Classification**: TensorFlow.js model for understanding user queries
+- **Tourism Data Processing**: Intelligent processing of tourism-related questions
+- **Contextual Responses**: Smart responses based on user intent and tourism data
+- **Fallback Mechanism**: Graceful handling of unknown queries
 
 ## Authentication Notes
 
