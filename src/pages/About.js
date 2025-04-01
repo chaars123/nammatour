@@ -156,18 +156,16 @@ const About = () => {
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>React.js</li>
                   <li>Tailwind CSS</li>
+                  <li>TensorFlow.js</li>
                   <li>React Router</li>
-                  <li>React Speech Kit</li>
-                  <li>JavaScript ES6+</li>
                 </ul>
               </div>
               <div className="bg-gray-50 p-4 rounded-md">
                 <h4 className="text-xl font-medium mb-2">Backend</h4>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Supabase (Authentication, Database)</li>
-                  <li>PostgreSQL</li>
-                  <li>RESTful APIs</li>
-                  <li>Serverless Functions</li>
+                  <li>Machine Learning Model</li>
+                  <li>Node.js</li>
                 </ul>
               </div>
             </div>
