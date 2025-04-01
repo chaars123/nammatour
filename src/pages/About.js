@@ -149,6 +149,28 @@ const About = () => {
               showcase the city's attractions, and provide an immersive experience for visitors planning their Bangalore trip.
             </p>
 
+            {/* Technologies Used */}
+            <div className="mb-8">
+              <h3 className="text-2xl font-semibold mb-4 text-primary">Technologies Used</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-xl font-semibold mb-2">Frontend</h4>
+                  <ul className="list-disc list-inside text-gray-700">
+                    <li>React.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>TensorFlow.js</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-semibold mb-2">Backend</h4>
+                  <ul className="list-disc list-inside text-gray-700">
+                    <li>Supabase</li>
+                    <li>Machine Learning Model</li>
+                    <li>Node.js</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
             <h3 className="text-2xl font-semibold mb-6 text-primary">Meet Our Team</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
