@@ -129,7 +129,7 @@ const Navbar = ({ user, setUser }) => {
           <Link
             to="/chat-ai"
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
-            onClick(() => setIsMenuOpen(false)}
+            onClick={() => setIsMenuOpen(false)}
           >
             AI Assistant
           </Link>
@@ -171,7 +171,7 @@ const Navbar = ({ user, setUser }) => {
                 <Link
                   to="/signup"
                   className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
-                  onClick(() => setIsMenuOpen(false)}
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   Sign Up
                 </Link>
