@@ -51,9 +51,6 @@ const About = () => {
   return (
     <div className="bg-white min-h-screen p-8">
       <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center">Crowd Prediction</h1>
-      <p className="text-center text-gray-600 mb-6">
-        Ask me about any Bangalore tourist spot and I'll happily predict the crowd level for you!
-      </p>
       <div className="bg-white rounded-md shadow-md p-4 max-w-xl mx-auto">
         <div className="space-y-4 mb-4" style={{ maxHeight: '400px', overflowY: 'auto' }}>
           {messages.map((msg, idx) => (
