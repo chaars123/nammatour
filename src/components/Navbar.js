@@ -33,14 +33,14 @@ const Navbar = ({ user, setUser }) => {
             <Link to="/enhanced-tourism" className="nav-link">Tourism</Link>
             <Link to="/tour-guides" className="nav-link">Tour Guides</Link>
             <Link to="/ai-search" className="nav-link">AI Search</Link>
-            <Link to="/about" className="nav-link">About</Link>
+            <Link to="/about" className="nav-link">Crowd</Link>
             <Link to="/chat-ai" className="nav-link flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
               </svg>
               AI Assistant
             </Link>
-            
+
             {user ? (
               <div className="flex items-center space-x-4">
                 <span className="text-sm font-medium">Hi, {user.name || user.email.split('@')[0]}</span>
@@ -124,16 +124,16 @@ const Navbar = ({ user, setUser }) => {
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
             onClick={() => setIsMenuOpen(false)}
           >
-            About
+            Crowd
           </Link>
           <Link
             to="/chat-ai"
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
-            onClick={() => setIsMenuOpen(false)}
+            onClick(() => setIsMenuOpen(false)}
           >
             AI Assistant
           </Link>
-          
+
           {user ? (
             <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="flex items-center px-5">
@@ -171,7 +171,7 @@ const Navbar = ({ user, setUser }) => {
                 <Link
                   to="/signup"
                   className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100"
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick(() => setIsMenuOpen(false)}
                 >
                   Sign Up
                 </Link>
